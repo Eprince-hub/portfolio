@@ -1,40 +1,54 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
-import Head from 'next/head'
 
 function Portfolio() {
 	return (
 		<>
 			<Head>
-			  <title>Portfolio</title>
+				<title>Portfolio</title>
 			</Head>
 
 			<Navbar />
 
-			<section className="hero">
-			  <div className="container">
-			    <div className="text-wrapper w-full">
-			      <h1 className="title">Portfolio</h1>
-			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in.
-			      </p>
+			<section className='hero'>
+				<div className='container'>
+					<div className='text-wrapper w-full'>
+						<h1 className='title'>Portfolio</h1>
+						<p className='description'>These are some of my projects</p>
 
-			      <div className="portfolio-wrapper">
-			      	<div className="portfolio-item">
-			      		<img src="/chitchat.png" className="portfolio-image" />
+						<div className='portfolio-wrapper'>
+							{/* portfolio items */}
+							<div className='portfolio-item'>
+								<img src='/chitchat.png' className='portfolio-image' />
 
-			      		<h4 className="portfolio-name">Chat App Exploration</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      	<div className="portfolio-item">
-			      		<img src="/kajian.jpg" className="portfolio-image" />
+								<h4 className='portfolio-name'>Chat App Exploration</h4>
+								<div className='portfolio-category'>Mobile Dev</div>
+							</div>
 
-			      		<h4 className="portfolio-name">kajian App</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      </div>
-		      </div>
-	      </div>
+							<div className='portfolio-item'>
+								<img src='/chitchat.png' className='portfolio-image' />
+
+								<h4 className='portfolio-name'>Chat App Exploration</h4>
+								<div className='portfolio-category'>Mobile Dev</div>
+							</div>
+
+							<div className='portfolio-item'>
+								<img src='/chitchat.png' className='portfolio-image' />
+
+								<h4 className='portfolio-name'>Weather app Exploration</h4>
+								<div className='portfolio-category'>Web Dev</div>
+							</div>
+
+							<div className='portfolio-item'>
+								<img src='/kajian.jpg' className='portfolio-image' />
+
+								<h4 className='portfolio-name'>kajian App</h4>
+								<div className='portfolio-category'>Mobile Dev</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</>
 	);

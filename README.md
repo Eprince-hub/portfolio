@@ -1,3 +1,15 @@
+# My Personal Portfolio
+
+This is a personal portfolio project that i started while taking the Upleveled
+Full Stack Web Development Bootcamp. I decided to make this portfolio so that i
+can share my progress.
+
+This project is built on [Next.js] and [React] and it is the very first project
+on this bootcamp.
+
+You can find the instruction about how you can run this project on your local
+machine below.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

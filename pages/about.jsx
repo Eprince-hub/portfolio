@@ -1,25 +1,37 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
-import Head from 'next/head'
 
 function About() {
 	return (
 		<>
 			<Head>
-			  <title>About</title>
+				<title>About</title>
 			</Head>
 
 			<Navbar />
 
-			<section className="hero">
-			  <div className="container">
-			    <div className="text-wrapper w-full">
-			      <h1 className="title">About</h1>
-			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in exercitation labore anim adipisicing amet irure tempor id pariatur nostrud labore nulla veniam sunt occaecat est officia ut cillum do eiusmod enim consequat nulla in ut esse irure ex commodo excepteur pariatur in consectetur consectetur in dolor aliqua ex sint minim dolore ut ea ad dolor est deserunt incididunt exercitation qui laboris ad do minim sunt elit occaecat excepteur deserunt sint sunt laboris dolore amet sit fugiat tempor reprehenderit laborum et irure commodo exercitation ea excepteur esse mollit ad nisi sit laboris dolore ad sunt eiusmod dolore do nisi id commodo in et aliqua sed ullamco ea id duis aliquip commodo qui sed aute ut aliqua.
-			      </p>
-		      </div>
-	      </div>
+			<section className='hero'>
+				<div className='container'>
+					<div className='text-wrapper w-full'>
+						<h1 className='title'>About Me</h1>
+						<p className='description'>
+							I am Victor Ejike Nwosu, I was born in Nigeria and i am currently
+							living in Austria. Majored in Biology Science and worked with a
+							(Silver-Line pharmaceutical) pharmaceutical company in my country.
+							Relocated to Austria in 2015 and in 2017 i decided to change my
+							career to digital marketing. Being into the field of digital
+							marketing since 2017 have exposed me to using lots of softwares
+							and applications that i began to wonder how all of these are made.
+							Curiosity?, yeah i know. I am in a good way a very curious person
+							and that is sometimes one of my motivation when i try to learn any
+							new things. I became fully interested in web development and
+							programming since last year. Coming from a none tech background i
+							decided to join the Upleveled Full stack Web Development Bootcamp.
+							[Going to Update this later along the line!].
+						</p>
+					</div>
+				</div>
 			</section>
 		</>
 	);
