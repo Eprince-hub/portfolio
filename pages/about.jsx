@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 
+//Need to fix the errors!
+
 function About() {
 	return (
 		<>
