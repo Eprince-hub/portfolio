@@ -3,55 +3,55 @@ import Link from 'next/link';
 import Navbar from '../components/Navbar';
 
 function Portfolio() {
-	return (
-		<>
-			<Head>
-				<title>Portfolio</title>
-			</Head>
+  return (
+    <>
+      <Head>
+        <title>Portfolio</title>
+      </Head>
 
-			<Navbar />
+      <Navbar />
 
-			<section className='hero'>
-				<div className='container'>
-					<div className='text-wrapper w-full'>
-						<h1 className='title'>Portfolio</h1>
-						<p className='description'>These are some of my projects</p>
+      <section className='hero'>
+        <div className='container'>
+          <div className='text-wrapper w-full'>
+            <h1 className='title'>Portfolio</h1>
+            <p className='description'>These are some of my projects</p>
 
-						<div className='portfolio-wrapper'>
-							{/* portfolio items */}
-							<div className='portfolio-item'>
-								<img src='/chitchat.png' className='portfolio-image' />
+            <div className='portfolio-wrapper'>
+              {/* portfolio items */}
+              <div className='portfolio-item'>
+                <img src='/chitchat.png' className='portfolio-image' />
 
-								<h4 className='portfolio-name'>Chat App Exploration</h4>
-								<div className='portfolio-category'>Mobile Dev</div>
-							</div>
+                <h4 className='portfolio-name'>Chat App Exploration</h4>
+                <div className='portfolio-category'>Mobile Dev</div>
+              </div>
 
-							<div className='portfolio-item'>
-								<img src='/chitchat.png' className='portfolio-image' />
+              <div className='portfolio-item'>
+                <img src='/chitchat.png' className='portfolio-image' />
 
-								<h4 className='portfolio-name'>Chat App Exploration</h4>
-								<div className='portfolio-category'>Mobile Dev</div>
-							</div>
+                <h4 className='portfolio-name'>Chat App Exploration</h4>
+                <div className='portfolio-category'>Mobile Dev</div>
+              </div>
 
-							<div className='portfolio-item'>
-								<img src='/chitchat.png' className='portfolio-image' />
+              <div className='portfolio-item'>
+                <img src='/chitchat.png' className='portfolio-image' />
 
-								<h4 className='portfolio-name'>Weather app Exploration</h4>
-								<div className='portfolio-category'>Web Dev</div>
-							</div>
+                <h4 className='portfolio-name'>Weather app Exploration</h4>
+                <div className='portfolio-category'>Web Dev</div>
+              </div>
 
-							<div className='portfolio-item'>
-								<img src='/kajian.jpg' className='portfolio-image' />
+              <div className='portfolio-item'>
+                <img src='/kajian.jpg' className='portfolio-image' />
 
-								<h4 className='portfolio-name'>kajian App</h4>
-								<div className='portfolio-category'>Mobile Dev</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</>
-	);
+                <h4 className='portfolio-name'>kajian App</h4>
+                <div className='portfolio-category'>Mobile Dev</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default Portfolio;
